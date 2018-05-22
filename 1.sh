@@ -18,13 +18,13 @@ head /dev/urandom | tr -dc A-Za-z0-9 | head -c 100 >/home/p1/Teaching_Material/q
 done
 sudo chmod 770 /home/p1
 sudo chown p1 /home/p1/Teaching_Material
-sudo chgrp p1 /home/p1/Teaching_Material
-sudo chmod 770 /home/p1/Teaching_Material
+#sudo chgrp p1 /home/p1/Teaching_Material
+#sudo chmod 770 /home/p1/Teaching_Material
 
 sudo useradd -m p2
 sudo passwd p2
 sudo chmod 777 /home/p2
-sudo chmod g+s /home/p1
+sudo chmod g+s /home/p2
 sudo mkdir /home/p2/Teaching_Material
 sudo chmod 777 /home/p2/Teaching_Material
 for i in {1..50}
@@ -33,8 +33,8 @@ head /dev/urandom | tr -dc A-Za-z0-9 | head -c 100 >/home/p2/Teaching_Material/q
 done
 sudo chmod 770 /home/p2
 sudo chown p2 /home/p2/Teaching_Material
-sudo chgrp p2 /home/p2/Teaching_Material
-sudo chmod 770 /home/p2/Teaching_Material
+#sudo chgrp p2 /home/p2/Teaching_Material
+#sudo chmod 770 /home/p2/Teaching_Material
 
 
 #creating students
@@ -43,7 +43,7 @@ do
 sudo useradd -m s$i
 sudo passwd s$i
 sudo chmod 770 /home/s$i
-sudo chmod g+s /home/s1
+sudo chmod g+s /home/s$i
 sudo mkdir /home/s$i/HomeWork
 sudo mkdir /home/s$i/HomeWork/prof1_work
 sudo mkdir /home/s$i/HomeWork/prof2_work
@@ -71,10 +71,10 @@ done
 done
 
 #linking HOD
-sudo usermod -G p1,p2,s1,s2,s3,s4,s5 HOD
+sudo usermod -G p1,p2,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20 HOD
 
 #linking profs
-sudo usermod -G s1,s2,s3,s4,s5 p1
-sudo usermod -G s1,s2,s3,s4,s5 p2
+sudo usermod -G s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20 p1
+sudo usermod -G s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20 p2
 
 
