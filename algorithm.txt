@@ -1,0 +1,63 @@
+** Math
+- Create a square root function.
+- Given a string such as "123" or "67", write a function to output the number represented by the string without using casting.
+- Make a program that can print out the text form of numbers from 1 - 1000 (ex. 20 is "twenty", 105 is "one hundred and five").
+- Write a function that parses Roman numerals.
+- Write in words for a given digit.
+- Given a number `N`, find the largest number just smaller than `N` that can be formed using the same digits as `N`.
+- Compute the square root of `N` without using any existing functions.
+- Given numbers represented as binary strings, and return the string containing their sum.
+- Take in an integer and return its english word-format.
+- Write a function that returns values randomly, according to their weight. Suppose we have 3 elements with their weights: A (1), B (1) and C (2). The function should return A with probability 25%, B with 25% and C with 50% based on the weights.
+- Given a number, how can you get the next greater number with the same set of digits?
+
+** Permutation
+
+- You are given a 7 digit phone number, and you should find all possible letter combinations based on the digit-to-letter mapping on numeric pad and return only the ones that have valid match against a given dictionary of words.
+- Give all possible letter combinations from a phone number.
+- Generate all subsets of a string.
+- Print all possible `N` pairs of balanced parentheses.
+- Given a list of arrays, return a list of arrays, where each array is a combination of one element in each given array.
+
+** Sorting and Searching
+
+- Sorting search results on a page given a certain set of criteria.
+- Sort a list of numbers in which each number is at a distance `K` from its actual position.
+- Given an array of integers, sort the array so that all odd indexes are greater than the even indexes.
+- Given users with locations in a list and a logged-in user with locations, find their travel buddies (people who shared more than half of your locations).
+- Search for an element in a sorted and rotated array.
+- Sort a list where each element is no more than k positions away from its sorted position.
+- Search for an item in a sorted, but rotated, array.
+- Merge two sorted lists together.
+- Give 3 distinct algorithms to find the K largest values in a list of N items.
+- Find the minimum element in a sorted rotated array in faster than O(n) time.
+- Write a function that takes a number as input and outputs the biggest number with the same set of digits.
+
+** Bit Manipulation
+
+- How do you verify if an interger is a power of 2?
+- Write a program to print the binary representation of an integer.
+- Write a program to print out the number of 1 bits in a given integer.
+- Write a program to determine the largest possible integer using the same number of 1 bits in a given number.
+
+** Dynamic Programming
+
+- Given a flight itinerary consisting of starting city, destination city, and ticket price (2D list) - find the optimal price flight path to get from start to destination. (A variation of Dynamic Programming Shortest Path)
+- Given some coin denominations and a target value `M`, return the coins combination with the minimum number of coins.
+- Given a set of numbers in an array which represent a number of consecutive days of Airbnb reservation requested, as a host, pick the sequence which maximizes the number of days of occupancy, at the same time, leaving at least a 1-day gap in-between bookings for cleaning.
+- Given a list of denominations (e.g., `[1, 2, 5]` means you have coins worth $1, $2, and $5) and a target number `k`, find all possible combinations, if any, of coins in the given denominations that add up to `k`. You can use coins of the same denomination more than once.
+
+** Geometry
+
+- You have a plane with lots of rectangles on it, find out how many of them intersect.
+- Which data structure would you use to query the k-nearest points of a set on a 2D plane?
+- Given many points, find k points that are closest to the origin.
+- How would you triangulate a polygon?
+
+** Object-Oriented Programming
+
+- How would you design a chess game? What classes and objects would you use? What methods would they have?
+- How would you design the data structures for a book keeping system for a library?
+- Explain how you would design a HTTP server? Give examples of classes, methods, and interfaces. What are the challenges here?
+- Discuss algorithms and data structures for a garbage collector?
+- How would you implement an HR system to keep track of employee salaries and benefits?

@@ -1,0 +1,141 @@
+** Heap
+
+- Merge `K` sorted lists together into a single list.
+- Given a stream of integers, write an efficient function that returns the median value of the integers.
+
+** Arrays
+
+- In an array of arrays, e.g. given `[[], [1, 2, 3], [4, 5], [], [], [6, 7], [8], [9, 10], [], []]`, print: `1, 2, 3, 4, 5, 6, 7, 8, 9, 10`.
+- Given a list of item prices, find all possible combinations of items that sum a particular value `K`.
+- Paginate an array with constraints, such as skipping certain items.
+- Implement a circular buffer using an array.
+- Given array of arrays, sort them in ascending order.
+- Given an array of integers, print out a histogram using the said array; include a base layer (all stars)
+- Given an array and an index, find the product of the elements of the array except the element at that index.
+- Given a set of rectangles represented by a height and an interval along the y-axis, determine the size of its union.
+- Given 2 separate arrays, write a method to find the values that exist in both arrays and return them.
+- Given an array of integers find whether there is a sub-sequence that sums to 0 and return it.
+- Given an input array and another array that describes a new index for each element, mutate the input array so that each element ends up in their new index. Discuss the runtime of the algorithm and how you can be sure there would not be any infinite loops.
+- Given an array of non-negative numbers, find continuous subarray with sum to S.
+- Given an array of numbers list out all triplets that sum to 0. Do so with a running time of less than O(n^3).
+- Given an array of numbers list out all quadruplets that sum to 0. Do so with a running time of less than O(n^4).
+- Given an array of integers, move all the zeroes to the end while preserving the order of the other elements. You have to do it in-place and are not allowed to use any extra storage.
+- Given an array of integers, find the subarray with the largest sum. Can you do it in linear time.
+- You have an array with the heights of an island (at point 1, point 2 etc) and you want to know how much water would remain on this island (without flowing away).
+- Given an array containing only digits `0-9`, add one to the number and return the array.
+- Find the second maximum value in an array.
+- Given an array, find the longest arithmetic progression.
+- Rotate an array by an offset of k.
+- Remove duplicates in an unsorted array where the duplicates are at a distance of k or less from each other.
+- Given an unsorted list of integers, return true if the list contains any duplicates within k indices of each element. Do it faster than O(n^2).
+- Given an unsorted list of integers, return true if the list contains any fuzzy duplicates within k indices of each element. A fuzzy duplicate is another integer within d of the original integer. Do it faster than O(n^2).
+- Say you have an unordered list of numbers ranging from 1 to n, and one of the numbers is removed, how do you find that number? What if two numbers are removed?
+- Given an array of string, find the duplicated elements.
+- Given an array of integers, find a maximum sum of non-adjacent elements.
+- Given an array of integers, modify the array by moving all the zeros to the end (right side). The order of other elements doesn't matter.
+- Given an array, return the length of the longest increasing contiguous subarray.
+- Given an array of integers where every value appears twice except one, find the single, non-repeating value. Follow up: do so with O(1) space.
+
+** Linked List
+
+- Given a linked list, in addition to the next pointer, each node has a child pointer that can point to a separate list. With the head node, flatten the list to a single-level linked list.
+- Reverse a singly linked list. Implement it recursively and iteratively.
+- Convert a binary tree to a doubly circular linked list.
+- Implement an LRU cache with O(1) runtime for all its operations.
+- Check distance between values in linked list.
+- A question involving an API's integration with hash map where the buckets of hash map are made up of linked lists.
+- Given a singly linked list (a list which can only be traversed in one direction), find the item that is located at 'k' items from the end. So if the list is a, b, c, d and k is 2 then the answer is 'c'. The solution should not search the list twice.
+- How can you tell if a Linked List is a Palindrome?
+
+** String
+
+- Output list of strings representing a page of hostings given a list of CSV strings.
+- Given a list of words, find the word pairs that when concatenated form a palindrome.
+- Find the most efficient way to identify what character is out of place in a non-palindrome.
+- Implement a simple regex parser which, given a string and a pattern, returns a boolean indicating whether the input matches the pattern. By simple, we mean that the regex can only contain the following special characters: `*` (star), `.` (dot), `+` (plus). The star means that there will be zero or more of the previous character in that place in the pattern. The dot means any character for that position. The plus means one or more of previous character in that place in the pattern.
+- Find all words from a dictionary that are x edit distance away.
+- Given a string IP and number n, print all CIDR addresses that cover that range.
+- Write a function called `eval`, which takes a string and returns a boolean. This string is allowed 6 different characters: `0`, `1`, `&`, `|`, `(`, and `)`. `eval` should evaluate the string as a boolean expression, where `0` is `false`, `1` is `true`, `&` is an `and`, and `|` is an `or`.
+- Given a pattern string like `"abba"` and an input string like `"redbluebluered"`, return `true` if and only if there's a one to one mapping of letters in the pattern to substrings of the input.
+- If you received a file in chunks, calculate when you have the full file. Quite an open-ended question. Can assume chunks come with start and end, or size, etc.
+- Given a list of names (strings) and the width of a line, design an algorithm to display them using the minimum number of lines.
+- Design a spell-checking algorithm.
+- Count and say problem.
+- Longest substring with `K` unique characters.
+- Given a set of random strings, write a function that returns a set that groups all the anagrams together.
+- Given a string, find the longest substring without repeating characters. For example, for string `'abccdefgh'`, the longest substring is `'cdefgh'`.
+- Given a string, return the string with duplicate characters removed.
+- Write a function that receives a regular expression (allowed chars = from `'a'` to `'z'`, `'*'`, `'.'`) and a string containing lower case english alphabet characters and return `true` or `false` whether the string matches the regex.
+- Given a rectangular grid with letters, search if some word is in the grid.
+- Given two strings representing integer numbers (`'123'` , `'30'`) return a string representing the sum of the two numbers: `'153'`.
+- A professor wants to see if two students have cheated when writing a paper. Design a function `hasCheated(String s1, String s2, int N)` that evaluates to `true` if two strings have a common substring of length `N`.
+- Print all permutations of a given string.
+- Parse a string containing numbers and `'+'`, `'-'` and parentheses. Evaluate the expression. `-2+(3-5)` should return `-4`.
+- Output a substring with at most `K` unique characters.
+- Ensure that there are a minimum of `N` dashes between any two of the same characters of a string.
+- Find the longest palindrome in a string.
+- Give the count and the number following in the series.
+- Compress a string by grouping consecutive similar questions together:
+- You have a string consisting of open and closed parentheses, but parentheses may be imbalanced. Make the parentheses balanced and return the new string.
+- Given a set of strings, return the smallest subset that contains prefixes for every string.
+- Write a function that would return all the possible words generated when using a phone (pre-smartphone era) numpad to type.
+- Given a dictionary and a word, find the minimum number of deletions needed on the word in order to make it a valid word.
+- How to check if a string contains an anagram of another string?
+- Find all k-lettered words from a string.
+- Given a string of open and close parentheses, find the minimum number of edits needed to balance a string of parentheses.
+- Run length encoding - Write a string compress function that returns `'R2G1B1'` given `'RRGB'`.
+- Write a function that finds all the different ways you can split up a word into a concatenation of two other words.
+
+** Graph
+
+- Given a list of sorted words from an alien dictionary, find the order of the alphabet.
+- Find if a given string matches any path in a labeled graph. A path may contain cycles.
+- Given a bipartite graph, separate the vertices into two sets.
+- You are a thief trying to sneak across a rectangular 100 x 100m field. There are alarms placed on the fields and they each have a circular sensing radius which will trigger if anyone steps into it. Each alarm has its own radius. Determine if you can get from one end of the field to the other end.
+- Given a graph and two nodes, determine if there exists a path between them.
+- Determine if a cycle exists in the graph.
+
+** Hash Table
+
+- Describe an implementation of a least-used cache, and big-O notation of it.
+- A question involving an API's integration with hash map where the buckets of hash map are made up of linked lists.
+- Implement data structure `Map` storing pairs of integers (key, value) and define following member functions in O(1) runtime: `void insert(key, value)`, `void delete(key)`, `int get(key)`, `int getRandomKey()`.
+
+** Stack
+
+- Implementation of an interpreter for a small language that does multiplication/addition/etc.
+- Design a `MinStack` data structure that supports a `min()` operation that returns the minimum value in the stack in O(1) time.
+- Write an algorithm to determine if all of the delimiters in an expression are matched and closed.
+- Sort a stack in ascending order using an additional stack.
+
+** Tree 
+
+- Find the height of a tree.
+- Find the longest path from the root to leaf in a tree.
+- Find the deepest left leaf of a tree.
+- Print all paths of a binary tree.
+- Second largest element of a BST.
+- Given a binary tree and two nodes, how to find the common ancestor of the two nodes?
+- Find the lowest common ancestor of two nodes in a binary search tree.
+- Print the nodes in an n-ary tree level by level, one printed line per level.
+- Given a directory of files and folders (and relevant functions), how would you parse through it to find equivalent files?
+- Write a basic file system and implement the commands ls, pwd, mkdir, create, rm, cd, cat, mv.
+- Compute the intersection of two binary search trees.
+- Given a binary tree, output all the node to leaf paths of it.
+- Given a string of characters without spaces, is there a way to break the string into valid words without leftover characters?
+- Print a binary tree level by level.
+- Determine if a binary tree is "complete" (i.e, if all leaf nodes were either at the maximum depth or max depth-1, and were 'pressed' along the left side of the tree).
+- Find the longest path in a binary tree. The path may start and end at any node.
+- Determine if a binary tree is a BST.
+- Given a binary tree, serialize it into a string. Then deserialize it.
+- Print a binary tree by column.
+- Given a node, find the next element in a BST.
+- Find the shortest subtree that consist of all the deepest nodes. The tree is not binary.
+- Print out the sum of each row in a binary tree.
+- Pretty print a JSON object.
+- Convert a binary tree to a doubly circular linked list.
+- Find the second largest number in a binary tree.
+- Given a tree, find the longest branch.
+- Convert a tree to a linked list.
+- Given two trees, write code to find out if tree A is a subtree of tree B.
+- Deepest node in a tree.
